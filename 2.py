@@ -9,7 +9,6 @@ def fun(num):
         if (num[i+1])-num[i] != 1:
             return num[i]+1
 
-
 with open('output.txt', 'r') as data:
     
     num = data.read()
